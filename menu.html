@@ -1,0 +1,882 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu | Restaurant</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <div class="header-container">
+        <div class="navbar-wrapper">
+            <div class="container">
+                <div class="navbar">
+                    <div class="nav-logo">
+                        <a href="index.html"><img src="./images/logo-bg.png" alt="nav-logo"></a>
+                    </div>
+                    <div class="hamburger" id="hamburger">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                    <ul class="nav-items">
+                        <a href="index.html">
+                            <li class="nav-item">Home</li>
+                        </a>
+                        <a href="about.html">
+                            <li class="nav-item">About Us</li>
+                        </a>
+                        <li class="nav-item nav-item-active">Menu</li>
+                        <a href="gallery.html">
+                            <li class="nav-item">Gallery</li>
+                        </a>
+                        <a href="contact.html">
+                            <li class="nav-item">Contact Us</li>
+                        </a>
+                        <a href="tel:123456789">
+                            <li class="nav-item number">+123 456789</li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <aside id="mobile-sidebar" class="mobile-sidebar" aria-label="Mobile menu">
+            <button id="mobile-sidebar-close" class="close-btn" aria-label="Close menu">
+                <i class="fa fa-times"></i>
+            </button>
+            <nav class="mobile-nav">
+                <ul class="metismenu" id="mobile-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="menu.html" class="nav-active-mobile">Menu</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li>
+                        <a href="tel:123456789">
+                    <li class="nav-item number">+123 456789</li>
+                    </a>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+        <div class="breadcrumb-wrapper">
+            <img src="./images/about/breadcrumb.jpg" class="breadcrumb-img">
+            <div class="breadcrumb-overlay"></div>
+            <div class="breadcrumb-contents">
+                <div class="container">
+                    <h1>Our Menu</h1>
+                    <p><a href="index.html">Home </a> <span>> Menu</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="popular-dishes-wrapper pt pb">
+        <div class="container">
+            <div class="popular-dishes">
+                <h5>Watch Out</h5>
+                <h1>Our Best Sellers</h1>
+                <div class="swiper itemheader">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="./images/menu/pizza.jpg" />
+                            <h6>Pizzas</h6>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/menu/burger.jpg" />
+                            <h6>Burgers</h6>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/menu/fries.jpg" />
+                            <h6>Fries</h6>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/menu/beer.jpg" />
+                            <h6>Beverages</h6>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/menu/salad.png" />
+                            <h6>Salads</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper items">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="popular-dish-items">
+                                <div class="row">
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="popular-dish-item-details mb-50">
+                                            <img src="./images/menu/pizzas/bacon-italian.png" alt="">
+                                            <div class="popular-dish-item-details-contents">
+                                                <h5>Bacon Italian Pizza</h5>
+                                                <p>Spicy Jalapeño, Creamy Ranch</p>
+                                                <h4>$9.99</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="popular-dish-item-details mb-50">
+                                            <img src="./images/menu/pizzas/delicious.png" alt="">
+                                            <div class="popular-dish-item-details-contents">
+                                                <h5>Delicious Chicken Pizza</h5>
+                                                <p>Spicy Jalapeño, Creamy Ranch</p>
+                                                <h4>$19.99</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="popular-dish-item-details mb-50">
+                                            <img src="./images/menu/pizzas/fabulous.png" alt="">
+                                            <div class="popular-dish-item-details-contents">
+                                                <h5>Fabulous Chicken Pizza</h5>
+                                                <p>Spicy Jalapeño, Creamy Ranch</p>
+                                                <h4>$29.99</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="popular-dish-item-details mb-30">
+                                            <img src="./images/menu/pizzas/grilled-chicken.png" alt="">
+                                            <div class="popular-dish-item-details-contents">
+                                                <h5>Grilled Chicken Pizza</h5>
+                                                <p>Spicy Jalapeño, Creamy Ranch</p>
+                                                <h4>$39.99</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="popular-dish-item-details mb-30">
+                                            <img src="./images/menu/pizzas/smoked-buff.png" alt="">
+                                            <div class="popular-dish-item-details-contents">
+                                                <h5>Smoked Buff Pizza</h5>
+                                                <p>Spicy Jalapeño, Creamy Ranch</p>
+                                                <h4>$49.99</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="popular-dish-item-details">
+                                            <img src="./images/menu/pizzas/smoked-salmon.png" alt="">
+                                            <div class="popular-dish-item-details-contents">
+                                                <h5>Smoked Salmon Pizza</h5>
+                                                <p>Spicy Jalapeño, Creamy Ranch</p>
+                                                <h4>$59.99</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="popular-dish-items">
+                                <div class="row">
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="popular-dish-item-details mb-50">
+                                            <img src="./images/menu/burgers/black-burger.png" alt="">
+                                            <div class="popular-dish-item-details-contents">
+                                                <h5>Black Coated Burger</h5>
+                                                <p>Spicy Jalapeño, Creamy Ranch</p>
+                                                <h4>$9.99</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="popular-dish-item-details mb-50">
+                                            <img src="./images/menu/burgers/crunchy-burger.png" alt="">
+                                            <div class="popular-dish-item-details-contents">
+                                                <h5>Cunchy Chicken Burger</h5>
+                                                <p>Spicy Jalapeño, Creamy Ranch</p>
+                                                <h4>$19.99</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="popular-dish-item-details mb-50">
+                                            <img src="./images/menu/burgers/double-burger.png" alt="">
+                                            <div class="popular-dish-item-details-contents">
+                                                <h5>Double Layer Burger</h5>
+                                                <p>Spicy Jalapeño, Creamy Ranch</p>
+                                                <h4>$29.99</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="popular-dish-item-details">
+                                            <img src="./images/menu/burgers/peporoni-burger.png" alt="">
+                                            <div class="popular-dish-item-details-contents">
+                                                <h5>Peporoni Ham Burger</h5>
+                                                <p>Spicy Jalapeño, Creamy Ranch</p>
+                                                <h4>$39.99</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="popular-dish-item-details">
+                                            <img src="./images/menu/burgers/triple-burger.png" alt="">
+                                            <div class="popular-dish-item-details-contents">
+                                                <h5>Triple Layer Burger</h5>
+                                                <p>Spicy Jalapeño, Creamy Ranch</p>
+                                                <h4>$49.99</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="popular-dish-item-details">
+                                            <img src="./images/menu/burgers/veg-burger.png" alt="">
+                                            <div class="popular-dish-item-details-contents">
+                                                <h5>Veg Burger</h5>
+                                                <p>Spicy Jalapeño, Creamy Ranch</p>
+                                                <h4>$59.99</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="popular-dish-items">
+                                <div class="row">
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="popular-dish-item-details mb-50">
+                                            <img src="./images/menu/fries/crincle-fries.png" alt="">
+                                            <div class="popular-dish-item-details-contents">
+                                                <h5>Crincle Fries</h5>
+                                                <p>Spicy Jalapeño, Creamy Ranch</p>
+                                                <h4>$9.99</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="popular-dish-item-details mb-50">
+                                            <img src="./images/menu/fries/curly-fries.png" alt="">
+                                            <div class="popular-dish-item-details-contents">
+                                                <h5>Curly Fries</h5>
+                                                <p>Spicy Jalapeño, Creamy Ranch</p>
+                                                <h4>$19.99</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="popular-dish-item-details mb-50">
+                                            <img src="./images/menu/fries/pommes-fries.png" alt="">
+                                            <div class="popular-dish-item-details-contents">
+                                                <h5>Pommes Fries</h5>
+                                                <p>Spicy Jalapeño, Creamy Ranch</p>
+                                                <h4>$29.99</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="popular-dish-item-details">
+                                            <img src="./images/menu/fries/shoestring-fries.png" alt="">
+                                            <div class="popular-dish-item-details-contents">
+                                                <h5>Shoestring Fries</h5>
+                                                <p>Spicy Jalapeño, Creamy Ranch</p>
+                                                <h4>$39.99</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="popular-dish-item-details">
+                                            <img src="./images/menu/fries/tornado-fries.png" alt="">
+                                            <div class="popular-dish-item-details-contents">
+                                                <h5>Tornado Fries</h5>
+                                                <p>Spicy Jalapeño, Creamy Ranch</p>
+                                                <h4>$49.99</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="popular-dish-item-details">
+                                            <img src="./images/menu/fries/waffle-fries.png" alt="">
+                                            <div class="popular-dish-item-details-contents">
+                                                <h5>Waffle Fries</h5>
+                                                <p>Spicy Jalapeño, Creamy Ranch</p>
+                                                <h4>$59.99</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="popular-dish-items">
+                                <div class="row">
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="popular-dish-item-details mb-50">
+                                            <img src="./images/menu/beverages/cofee.png" alt="">
+                                            <div class="popular-dish-item-details-contents">
+                                                <h5>Black Coffee</h5>
+                                                <p>Spicy Jalapeño, Creamy Ranch</p>
+                                                <h4>$9.99</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="popular-dish-item-details mb-50">
+                                            <img src="./images/menu/beverages/cold-drinks.png" alt="">
+                                            <div class="popular-dish-item-details-contents">
+                                                <h5>Cold Drinks</h5>
+                                                <p>Spicy Jalapeño, Creamy Ranch</p>
+                                                <h4>$19.99</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="popular-dish-item-details mb-50">
+                                            <img src="./images/menu/beverages/fruit-juice.png" alt="">
+                                            <div class="popular-dish-item-details-contents">
+                                                <h5>Fruit Juice</h5>
+                                                <p>Spicy Jalapeño, Creamy Ranch</p>
+                                                <h4>$29.99</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="popular-dish-item-details">
+                                            <img src="./images/menu/beverages/hard-drinks.png" alt="">
+                                            <div class="popular-dish-item-details-contents">
+                                                <h5>Hard Drinks</h5>
+                                                <p>Spicy Jalapeño, Creamy Ranch</p>
+                                                <h4>$39.99</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="popular-dish-item-details">
+                                            <img src="./images/menu/beverages/sparkling-water.png" alt="">
+                                            <div class="popular-dish-item-details-contents">
+                                                <h5>Sparkling Water</h5>
+                                                <p>Spicy Jalapeño, Creamy Ranch</p>
+                                                <h4>$49.99</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="popular-dish-item-details">
+                                            <img src="./images/menu/beverages/wine.png" alt="">
+                                            <div class="popular-dish-item-details-contents">
+                                                <h5>Red Wine</h5>
+                                                <p>Spicy Jalapeño, Creamy Ranch</p>
+                                                <h4>$59.99</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="popular-dish-items">
+                                <div class="row">
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="popular-dish-item-details mb-50">
+                                            <img src="./images/menu/salads/green-salad.png" alt="">
+                                            <div class="popular-dish-item-details-contents">
+                                                <h5>Green Salad</h5>
+                                                <p>Spicy Jalapeño, Creamy Ranch</p>
+                                                <h4>$9.99</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="popular-dish-item-details mb-50">
+                                            <img src="./images/menu/salads/tomato-salad.png" alt="">
+                                            <div class="popular-dish-item-details-contents">
+                                                <h5>Tomato Salad</h5>
+                                                <p>Spicy Jalapeño, Creamy Ranch</p>
+                                                <h4>$19.99</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="popular-dish-item-details mb-50">
+                                            <img src="./images/menu/salads/paneer-salad.png" alt="">
+                                            <div class="popular-dish-item-details-contents">
+                                                <h5>Paneer Salad</h5>
+                                                <p>Spicy Jalapeño, Creamy Ranch</p>
+                                                <h4>$29.99</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="popular-dish-item-details">
+                                            <img src="./images/menu/salads/paneer-salad.png" alt="">
+                                            <div class="popular-dish-item-details-contents">
+                                                <h5>Paneer Salad</h5>
+                                                <p>Spicy Jalapeño, Creamy Ranch</p>
+                                                <h4>$29.99</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="popular-dish-item-details">
+                                            <img src="./images/menu/salads/green-salad.png" alt="">
+                                            <div class="popular-dish-item-details-contents">
+                                                <h5>Green Salad</h5>
+                                                <p>Spicy Jalapeño, Creamy Ranch</p>
+                                                <h4>$9.99</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="popular-dish-item-details">
+                                            <img src="./images/menu/salads/tomato-salad.png" alt="">
+                                            <div class="popular-dish-item-details-contents">
+                                                <h5>Tomato Salad</h5>
+                                                <p>Spicy Jalapeño, Creamy Ranch</p>
+                                                <h4>$19.99</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <img src="./images/menu/top-right.png" alt="top-right" class="top-right">
+        <img src="./images/menu/capsicum_1.png" alt="capsicum" class="capsicum">
+        <img src="./images/menu/ketchup.jpg" alt="ketchup" class="ketchup">
+        <img src="./images/menu/oregano.jpg" alt="oregano" class="oregano">
+    </div>
+    <div class="breakfast-wrapper pb pt">
+        <div class="container">
+            <div class="breakfast">
+                <div class="row align-items-center">
+                    <div class="col-lg-4 col-md-6 mb-30">
+                        <div class="breakfast-left">
+                            <img src="./images/menu/breakfast.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-8 col-md-6">
+                        <div class="breakfast-right">
+                            <h5>Enjoy a sunny day with our Breakfast</h5>
+                            <h1>Breakfast Menu</h1>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="menu-left">
+                                        <div class="row">
+                                            <div class="col-lg-10">
+                                                <h6>Slow Roasted Tomatoes & Feta Toast</h6>
+                                                <p>Slow-roasted cherry tomatoes over multigrain toast topped with
+                                                    crumbled
+                                                    feta and herbs</p>
+                                            </div>
+                                            <div class="col-lg-1 offset-lg-1">
+                                                <span>$11</span>
+                                            </div>
+                                            <hr>
+                                            <div class="col-lg-10">
+                                                <h6>Grass-Fed Beef Breakfast Skillet</h6>
+                                                <p>Seared beef strips with sautéed peppers, onions, and farm-fresh eggs
+                                                </p>
+                                            </div>
+                                            <div class="col-lg-1 offset-lg-1">
+                                                <span>$9</span>
+                                            </div>
+                                            <hr>
+                                            <div class="col-lg-10">
+                                                <h6>Deboned King Quail with Poached Eggs</h6>
+                                                <p>Grilled quail served with creamy polenta and soft poached eggs</p>
+                                            </div>
+                                            <div class="col-lg-1 offset-lg-1">
+                                                <span>$12</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="menu-left">
+                                        <div class="row">
+                                            <div class="col-lg-10">
+                                                <h6>Avocado Toast with Spiced Chickpeas</h6>
+                                                <p>Smashed avocado on sourdough topped with roasted chickpeas and chili
+                                                    flakes</p>
+                                            </div>
+                                            <div class="col-lg-1 offset-lg-1">
+                                                <span>$9</span>
+                                            </div>
+                                            <hr>
+                                            <div class="col-lg-10">
+                                                <h6>Confit of Lamb Benedict</h6>
+                                                <p>English muffin, pulled lamb confit, poached eggs, and hollandaise
+                                                </p>
+                                            </div>
+                                            <div class="col-lg-1 offset-lg-1">
+                                                <span>$10</span>
+                                            </div>
+                                            <hr>
+                                            <div class="col-lg-10">
+                                                <h6>Steamed King Crab Omelet</h6>
+                                                <p>Fluffy omelet with sweet crab meat, spinach, and dill</p>
+                                            </div>
+                                            <div class="col-lg-1 offset-lg-1">
+                                                <span>$22</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./images/menu/tomato.png" class="tomato">
+        <img src="./images/menu/fried-egg.png" class="fried-egg">
+        <img src="./images/menu/sandwich.png" class="sandwich">
+    </div>
+    <div class="lunch-wrapper pb pt">
+        <div class="container">
+            <div class="lunch">
+                <div class="row align-items-center">
+                    <div class="col-lg-8 col-md-6 mb-30">
+                        <div class="lunch-left">
+                            <h5>Fresh and flavorful midday delights</h5>
+                            <h1>Lunch Menu</h1>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="menu-left">
+                                        <div class="row">
+                                            <div class="col-lg-10">
+                                                <h6>Grilled Chicken Caesar Salad</h6>
+                                                <p>Classic Caesar with grilled chicken, shaved parmesan, and garlic
+                                                    croutons</p>
+                                            </div>
+                                            <div class="col-lg-1 offset-lg-1">
+                                                <span>$11</span>
+                                            </div>
+                                            <hr>
+                                            <div class="col-lg-10">
+                                                <h6>Smoked Salmon Bagel</h6>
+                                                <p>Toasted bagel with cream cheese, smoked salmon, red onions, and
+                                                    capers
+                                                </p>
+                                            </div>
+                                            <div class="col-lg-1 offset-lg-1">
+                                                <span>$9</span>
+                                            </div>
+                                            <hr>
+                                            <div class="col-lg-10">
+                                                <h6>Vegetable Paella Bowl</h6>
+                                                <p>Spanish-style rice with seasonal vegetables and saffron</p>
+                                            </div>
+                                            <div class="col-lg-1 offset-lg-1">
+                                                <span>$12</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="menu-left">
+                                        <div class="row">
+                                            <div class="col-lg-10">
+                                                <h6>Beef Lasagna al Forno</h6>
+                                                <p>Layered pasta with rich beef ragu, béchamel, and mozzarella</p>
+                                            </div>
+                                            <div class="col-lg-1 offset-lg-1">
+                                                <span>$9</span>
+                                            </div>
+                                            <hr>
+                                            <div class="col-lg-10">
+                                                <h6>Pan-Seared Sea Bass</h6>
+                                                <p>Crispy-skinned sea bass served over lemon-herb quinoa
+                                                </p>
+                                            </div>
+                                            <div class="col-lg-1 offset-lg-1">
+                                                <span>$10</span>
+                                            </div>
+                                            <hr>
+                                            <div class="col-lg-10">
+                                                <h6>Pesto Pasta Primavera</h6>
+                                                <p>Penne pasta tossed in basil pesto with zucchini, cherry tomatoes, and
+                                                    bell peppers</p>
+                                            </div>
+                                            <div class="col-lg-1 offset-lg-1">
+                                                <span>$22</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="lunch-right">
+                            <img src="./images/menu/lunch.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./images/menu/burger-bg.png" class="burger-bg">
+        <img src="./images/menu/menu-spices.jpg" class="menu-spices">
+        <img src="./images/menu/corriander.png" class="corriander">
+    </div>
+    <div class="dinner-wrapper pb pt">
+        <div class="container">
+            <div class="dinner">
+                <div class="row align-items-center">
+                    <div class="col-lg-4 col-md-6 mb-30">
+                        <div class="dinner-left">
+                            <img src="./images/menu/dinner.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-8 col-md-6">
+                        <div class="dinner-right">
+                            <h5>Elegance and indulgence to end your day</h5>
+                            <h1>Dinner Menu</h1>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="menu-left">
+                                        <div class="row">
+                                            <div class="col-lg-10">
+                                                <h6>Filet Mignon with Garlic Mash</h6>
+                                                <p>Tenderloin steak with creamy garlic mashed potatoes and red wine jus
+                                                </p>
+                                            </div>
+                                            <div class="col-lg-1 offset-lg-1">
+                                                <span>$11</span>
+                                            </div>
+                                            <hr>
+                                            <div class="col-lg-10">
+                                                <h6>Seared Scallops with Lemon Butter</h6>
+                                                <p>Fresh scallops in a zesty lemon-butter sauce, served with asparagus
+                                                </p>
+                                            </div>
+                                            <div class="col-lg-1 offset-lg-1">
+                                                <span>$9</span>
+                                            </div>
+                                            <hr>
+                                            <div class="col-lg-10">
+                                                <h6>Truffle Mushroom Risotto</h6>
+                                                <p>Creamy Arborio rice with wild mushrooms and white truffle oil</p>
+                                            </div>
+                                            <div class="col-lg-1 offset-lg-1">
+                                                <span>$12</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="menu-left">
+                                        <div class="row">
+                                            <div class="col-lg-10">
+                                                <h6>Braised Short Ribs</h6>
+                                                <p>Slow-braised beef ribs in a rich red wine reduction, served with root
+                                                    veggies</p>
+                                            </div>
+                                            <div class="col-lg-1 offset-lg-1">
+                                                <span>$9</span>
+                                            </div>
+                                            <hr>
+                                            <div class="col-lg-10">
+                                                <h6>Confit of Lamb Benedict</h6>
+                                                <p>English muffin, pulled lamb confit, poached eggs, and hollandaise
+                                                </p>
+                                            </div>
+                                            <div class="col-lg-1 offset-lg-1">
+                                                <span>$10</span>
+                                            </div>
+                                            <hr>
+                                            <div class="col-lg-10">
+                                                <h6>Steamed King Crab Omelet</h6>
+                                                <p>Fluffy omelet with sweet crab meat, spinach, and dill</p>
+                                            </div>
+                                            <div class="col-lg-1 offset-lg-1">
+                                                <span>$22</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./images/menu/tomato-bg.png" class="tomato-bg">
+        <img src="./images/menu/eat.png" class="eat">
+        <img src="./images/menu/corn.png" class="corn">
+    </div>
+    <div class="menu-features-wrapper pt pb">
+        <div class="container">
+            <div class="menu-features">
+                <div class="row">
+                    <div class="col-lg-3 col-md-3 short-first">
+                        <div class="menu-features-short">
+                            <div class="hanger"></div>
+                            <img src="./images/menu/burgers/crunchy-burger.png" alt="">
+                            <h2>Best Quality Food</h2>
+                            <p>Excellence projecting is devonshire dispatched remarkably on estimating. Side in so life
+                                past.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 long-first">
+                        <div class="menu-features-long">
+                            <div class="hanger"></div>
+                            <h2>Home Delivery</h2>
+                            <p>Excellence projecting is devonshire dispatched remarkably on estimating. Side in so life
+                                past.</p>
+                            <img src="./images/menu/delivery-rider.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 short-second">
+                        <div class="menu-features-short">
+                            <div class="hanger"></div>
+                            <img src="./images/menu/real-taste.png" alt="">
+                            <h2>Real Taste</h2>
+                            <p>Excellence projecting is devonshire dispatched remarkably on estimating. Side in so life
+                                past.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 long-second">
+                        <div class="menu-features-long long-second">
+                            <div class="hanger"></div>
+                            <h2>Traditional Food</h2>
+                            <p>Excellence projecting is devonshire dispatched remarkably on estimating. Side in so life
+                                past.</p>
+                            <img src="./images/menu/fried-egg.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./images/menu/spiral-leaves.jpg" class="spiral-leaves">
+        <img src="./images/menu/steak.jpg" class="steak">
+    </div>
+    <div class="footer-wrapper">
+        <div class="footer-img">
+            <img src="./images/homepage/footer.jpg" alt="footer-image" class="footer-image">
+            <div class="footer-overlay"></div>
+        </div>
+        <div class="footer-contents">
+            <div class="container">
+                <div class="footer">
+                    <div class="row">
+                        <div class="col-lg-5 mt-2 col-md-12">
+                            <div class="footer-content d-flex align-items-center">
+                                <a href="index.html"><img src="./images/logo-bg.png" alt="footer-logo"></a>
+                                <p>For a truly memorable dining experience, where every bite tells a story and every
+                                    moment is crafted with care, step into a world of exquisite flavors, warm
+                                    hospitality, and timeless ambiance.</p>
+                            </div>
+                            <div class="footer-icons">
+                                <a href="contact.html">
+                                    <p class="footer-icon"><i class="fa-brands fa-facebook"></i></p>
+                                </a>
+                                <a href="contact.html">
+                                    <p class="footer-icon"><i class="fa-brands fa-instagram"></i></p>
+                                </a>
+                                <a href="contact.html">
+                                    <p class="footer-icon"><i class="fa-brands fa-whatsapp"></i></p>
+                                </a>
+                                <a href="contact.html">
+                                    <p class="footer-icon"><i class="fa-brands fa-youtube"></i></p>
+                                </a>
+                                <a href="contact.html">
+                                    <p class="footer-icon"><i class="fa-brands fa-linkedin"></i></p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 offset-lg-1 quick-links col-md-4 mb-30">
+                            <h4 class="ml-20">Quick Links</h4>
+                            <hr>
+                            <a href="index.html">
+                                <p class="ml-20">Home</p>
+                            </a>
+                            <a href="about.html">
+                                <p class="ml-20">About</p>
+                            </a>
+                            <a href="menu.html">
+                                <p class="ml-20">Menu</p>
+                            </a>
+                            <a href="gallery.html">
+                                <p class="ml-20">Gallery</p>
+                            </a>
+                            <a href="contact.html">
+                                <p class="ml-20">Contact</p>
+                            </a>
+                        </div>
+                        <div class="col-lg-2 col-md-4 mb-30">
+                            <h4 class="ml-20">Address</h4>
+                            <hr>
+                            <p class="ml-20">58 Ralph Ave</p>
+                            <p class="ml-20">New York 1111</p>
+                            <p class="ml-20">P:+1 800 000 111</p>
+                            <p class="ml-20">E:act@example.com</p>
+                        </div>
+                        <div class="col-lg-2 col-md-4">
+                            <h4 class="ml-20">Open Hours</h4>
+                            <hr>
+                            <p class="ml-20">Monday – Sunday</p>
+                            <p class="ml-20">Lunch: 12PM – 2PM</p>
+                            <p class="ml-20">Dinner: 6PM – 10PM</p>
+                            <p class="ml-20">Happy Hours: 4PM – 6PM</p>
+                        </div>
+                    </div>
+                    <div class="footer-bottom">
+                        <div class="footer-bottom-left">
+                            Copyright <i class="fa-solid fa-copyright"></i> 2025. All Rights Reserved.
+                        </div>
+                        <div class="footer-bottom-right">
+                            Design and Developed by Web
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".itemheader", {
+            loop: true,
+            spaceBetween: 100,
+            slidesPerView: 4,
+            freeMode: true,
+            watchSlidesProgress: true,
+        });
+        var swiper2 = new Swiper(".items", {
+            loop: true,
+            spaceBetween: 10,
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            thumbs: {
+                swiper: swiper,
+            },
+        });
+    </script>
+
+    <!-- JS Libraries -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/metismenu"></script>
+
+    <!-- Initialization JS -->
+    <script>
+        $(document).ready(function () {
+            // Initialize MetisMenu
+            $("#mobile-menu").metisMenu();
+
+            // Open mobile sidebar on hamburger click
+            $("#hamburger").click(function () {
+                $("#mobile-sidebar").addClass("show");
+            });
+
+            // Close mobile sidebar on close button click
+            $("#mobile-sidebar-close").click(function () {
+                $("#mobile-sidebar").removeClass("show");
+            });
+        });
+    </script>
+</body>
+
+</html>
