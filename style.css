@@ -862,7 +862,7 @@
   border-radius: 15px;
   transition: 1s ease-in-out;
 }
-.about-why-choose-us-left-inner:hover{
+.about-why-choose-us-left-inner:hover {
   background: var(--primary-color);
   color: white;
 }
@@ -1802,6 +1802,13 @@
   .welcome-bg-image1 img {
     width: 80px;
   }
+
+   .swiper-button-prev {
+    margin-left: 160px;
+  }
+  .swiper-button-next {
+    margin-right: 160px;
+  }
 }
 
 @media (width<992px) {
@@ -2066,6 +2073,10 @@
     text-decoration: underline !important;
     text-underline-offset: 5px;
   }
+
+  .get-in-touch-inner {
+    margin-left: 20px;
+  }
 }
 
 @media (width<768px) {
@@ -2276,7 +2287,7 @@
     left: 70%;
   }
   .short-first .menu-features-short {
-    z-index: 1;
+    z-index: 3;
   }
   .short-first .menu-features-short .hanger {
     z-index: 1;
@@ -2307,9 +2318,9 @@
     margin-left: 0;
   }
   .lets-connect {
-    width: 405px;
+    width: 390px;
     padding: 40px;
-    left: 0;
+    left: 1%;
   }
   .lets-connect-right img {
     display: none;
@@ -2408,9 +2419,71 @@
   }
 }
 
+@media (width<400px) {
+  .itemheader {
+    width: 320px !important ;
+  }
+  .galleryheader {
+    width: 340px !important ;
+  }
+  .menu-features-long {
+    width: 200px !important;
+  }
+  .corriander {
+    display: none;
+  }
+  .lets-connect {
+    width: 340px;
+  }
+  .swiper-button-next,
+  .swiper-button-prev {
+    margin-top: 120px !important;
+  }
+  .swiper-button-prev {
+    margin-left: 120px;
+  }
+  .swiper-button-next {
+    margin-right: 120px;
+  }
+  .about-features-img {
+    margin-left: 120px !important;
+  }
+}
+
 @media (width<350px) {
   .hero {
     width: 300px;
     left: 50%;
+  }
+  .long-first .menu-features-long {
+    width: 180px !important;
+    height: 350px;
+  }
+  .long-second .menu-features-long {
+    width: 180px !important;
+    height: 370px;
+  }
+  .itemheader {
+    width: 300px !important ;
+  }
+  .galleryheader {
+    width: 300px !important ;
+  }
+  .lets-connect {
+    width: 300px;
+    left: 3%;
+  }
+  .swiper-button-next,
+  .swiper-button-prev {
+    margin-top: 140px !important;
+  }
+  .about-features-img {
+    margin-left: 110px !important;
+  }
+}
+
+@media (width: 540px) {
+  .about-features-img {
+    margin-left: 200px !important;
   }
 }
