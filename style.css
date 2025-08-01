@@ -860,6 +860,11 @@
   height: 100%;
   padding: 20px;
   border-radius: 15px;
+  transition: 1s ease-in-out;
+}
+.about-why-choose-us-left-inner:hover{
+  background: var(--primary-color);
+  color: white;
 }
 .cheers {
   position: absolute;
